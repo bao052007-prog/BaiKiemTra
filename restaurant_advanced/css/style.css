@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(240, 241, 242);
+}
+
+.header{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.header .logo{
+    font-size: 25px;
+    font-style: bold;
+    margin-bottom: 12px;
+}
+
+.menu{
+    text-align: center;
+    color: brown;
+    text-decoration: none;
+    background-color: white;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.menu a:hover{
+    color: red;
+}
+
+.main{
+    width: 60%;
+    margin: 30px auto;
+}
+.noidung1{
+    text-align: center;
+    background-color: rgb(243, 235, 235);
+}
+
+.noidung1 h3{
+    padding: 5px;
+    font-style: bold;
+}
+
+.noidung1 p{
+    padding: 8px;   
+    margin-bottom: 12px;
+}
+
+.noidung1 button{
+    background-color: brown;
+    color: white;
+    border: solid 4px brown;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+
+.noidung1 button:hover{
+    color: black;
+}
+
+ .tieude1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid brown;
+    font-weight: bold;
+}
+
+.noidung2 {
+    display: flex;
+    justify-content:space-between ;
+    gap: 12px;
+}
+
+.noidung2 .boxbest{
+    position: relative;
+}
+.noidung2 .boxbest .best{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+
+.noidung2 .box1{
+    border: solid gainsboro;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.noidung2 .gia{
+    color: brown;
+}
+
+.tieude2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid brown;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border: solid snow;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+th{
+    background-color: brown;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+td{
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.tieude3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid brown;
+    font-weight: bold;
+}
+
+.noidung4 {
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+    
+}
+
+.noidung4 .box2{
+    border: solid gainsboro;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.tieude4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid brown;
+    font-weight: bold;
+}
+
+.noidung5 {
+    width: 100%;
+}
+
+.noidung5 .cot1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.noidung5 .cot2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cot1 input,
+.cot1 select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cot2 input,
+.cot2 select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.noidung5 input{  
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.box3{
+     border: solid gainsboro;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    width: 93%;
+    background-color: white;
+}
+
+.noidung5 button{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+    border-radius: 4px;
+    border: solid brown;    
+}
+
+.footer{
+text-align: center;
+background-color: brown;
+padding: 5px;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.footer a{
+    color: wheat;
+    text-decoration: none;
+}
